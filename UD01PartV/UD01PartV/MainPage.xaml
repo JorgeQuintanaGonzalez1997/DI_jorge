@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UD01PartV.MainPage"
+             Title="Datos de matrícula">
+
+    <VerticalStackLayout Padding="20" Spacing="20">
+        
+        <Grid RowDefinitions="Auto, Auto, Auto" ColumnDefinitions="Auto, *" ColumnSpacing="10" RowSpacing="10">
+            
+            <Label Text="Curso:" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="0" />
+            <Label x:Name="lblCurso" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="1" />
+
+            
+            <Label Text="Precio inicial:" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="0" />
+            <Label x:Name="lblPrecio" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1" />
+
+            
+            <Label Text="Forma de pago:" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="0" />
+            <Label x:Name="lblFormaPago" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" />
+        </Grid>
+
+        
+        <Button Text="Seleccionar curso" Clicked="OnSeleccionarCursoClicked" />
+        <Button Text="Seleccionar forma de pago" Clicked="OnSeleccionarFormaPagoClicked" />
+
+        
+        <Button Text="Calcular precio" x:Name="btnCalcularPrecio" IsEnabled="False" Clicked="OnCalcularPrecioClicked" />
+
+        
+        <Label x:Name="lblResultado" FontSize="Large" TextColor="Blue" />
+    </VerticalStackLayout>
+</ContentPage>
