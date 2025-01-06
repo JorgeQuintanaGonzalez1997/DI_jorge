@@ -7,8 +7,8 @@
     <VerticalStackLayout Padding="20">
         <Label Text="Selecciona un curso:" FontSize="Medium" />
         <HorizontalStackLayout Spacing="20">
-            <ImageButton Source="C:\Users\oscgaresc\source\repos\UD01PartV\UD01PartV\imagenes\electricista.jpg" Clicked="OnCurso1Clicked" WidthRequest="200" HeightRequest="200" />
-            <ImageButton Source="C:\Users\oscgaresc\source\repos\UD01PartV\UD01PartV\imagenes\jardineria.jpg" Clicked="OnCurso2Clicked" WidthRequest="200" HeightRequest="200" />
+            <ImageButton Source="C:\Users\oscgaresc\source\repos\UD01PartV\UD01PartV\Resources\Images\electricista.jpg" Clicked="OnCurso1Clicked" WidthRequest="200" HeightRequest="200" />
+            <ImageButton Source="C:\Users\oscgaresc\source\repos\UD01PartV\UD01PartV\Resources\Images\jardineria.jpg" Clicked="OnCurso2Clicked" WidthRequest="200" HeightRequest="200" />
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

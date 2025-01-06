@@ -7,8 +7,8 @@
     <VerticalStackLayout Padding="20">
         <Label Text="Selecciona una forma de pago:" FontSize="Medium" />
         <HorizontalStackLayout Spacing="20">
-            <ImageButton Source="C:\Users\oscgaresc\source\repos\UD01PartV\UD01PartV\imagenes\efectivo.jpg" Clicked="OnEfectivoClicked" WidthRequest="200" HeightRequest="200" />
-            <ImageButton Source="C:\Users\oscgaresc\source\repos\UD01PartV\UD01PartV\imagenes\tarjeta.jpg" Clicked="OnTarjetaClicked" WidthRequest="200" HeightRequest="200" />
+            <ImageButton Source="C:\Users\oscgaresc\source\repos\UD01PartV\UD01PartV\Resources\Images\efectivo.jpg" Clicked="OnEfectivoClicked" WidthRequest="200" HeightRequest="200" />
+            <ImageButton Source="C:\Users\oscgaresc\source\repos\UD01PartV\UD01PartV\Resources\Images\tarjeta.jpg" Clicked="OnTarjetaClicked" WidthRequest="200" HeightRequest="200" />
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
