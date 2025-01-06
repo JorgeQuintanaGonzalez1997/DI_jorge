@@ -9,7 +9,7 @@
             Spacing="25">
 
             <Image
-                Source="C:\Users\oscgaresc\source\repos\UD01PartIII\UD01PartIII\logo\logoLibreria.jpg"
+                Source="C:\Users\oscgaresc\source\repos\UD01PartIII\UD01PartIII\Resources\Images\logoLibreria.jpg"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 />

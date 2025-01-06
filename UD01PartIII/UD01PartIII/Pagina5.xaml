@@ -9,14 +9,14 @@
             Spacing="25">
 
             <Image
-                Source="C:\Users\oscgaresc\source\repos\UD01PartIII\UD01PartIII\logo\logoLibreria.jpg"
+                Source="C:\Users\oscgaresc\source\repos\UD01PartIII\UD01PartIII\Resources\Images\logoLibreria.jpg"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 />
 
             <Label Text="Resumen" />
             <Label Text="a" x:Name="sResumen" />
-            <Button Text="Volver atras" Clicked="BtnVolver_Clicked" />
+            <Button Text="Volver atrás" Clicked="BtnVolver_Clicked" />
 
         </VerticalStackLayout>
     </ScrollView>

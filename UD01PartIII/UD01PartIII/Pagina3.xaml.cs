@@ -4,11 +4,12 @@ public partial class Pagina3 : ContentPage
 {
 	
 	string producto;
-	public Pagina3()
+	/*public Pagina3()
 	{
 		InitializeComponent();
 	}
-	public Pagina3( string p)
+	*/
+	public Pagina3( string producto)
 	{
         InitializeComponent();
 		

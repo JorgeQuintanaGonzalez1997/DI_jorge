@@ -9,7 +9,7 @@
             Spacing="25">
 
             <Image
-                Source="C:\Users\oscgaresc\source\repos\UD01PartIII\UD01PartIII\logo\logoLibreria.jpg"
+                Source="C:\Users\oscgaresc\source\repos\UD01PartIII\UD01PartIII\Resources\Images\logoLibreria.jpg"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 />
@@ -19,7 +19,7 @@
             <Entry Placeholder="Introduce la Cantidad:" x:Name="eValor" />
 
             <Button Text="Ir a página 4" Clicked="BtnPagina4_Clicked" />
-            <Button Text="Volver atars" Clicked="BtnVolver_Clicked" />
+            <Button Text="Volver atrás" Clicked="BtnVolver_Clicked" />
 
         </VerticalStackLayout>
     </ScrollView>
